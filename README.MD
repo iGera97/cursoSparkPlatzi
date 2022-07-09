@@ -63,7 +63,7 @@ Para poder utilizar spark con jupyter_notebook es necesario agregar las siguient
     export PYSPARK_DRIVER_PYTHON="jupyter"
     export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
 
-para los que quieren conectar spark con postgresql en ubuntu yo hize lo siguiente baje el driver de JDBC https://jdbc.postgresql.org/download.html
-descomprimi el archivo lo copie en descargas y lo pegue en la siguiente ruta /usr/share/java/ quedando
+## Comentarios destacados de la comunidad
+para los que quieren conectar spark con postgresql en ubuntu yo hize lo siguiente baje el sdriver de JDBC https://jdbc.postgresql.org/download.html
+descomprimi el archivo lo copie en descargas y lo pegue en la siguiente ruta /usr/share/java/ quedandos
 usr/share/java/postgresql-42.3.1.jar, luego exporte la ruta al CLASSPATH con el siguiente comando (export CLASSPATH="$CLASSPATH:/usr/share/java/postgresql-42.3.1.jar"), y quedo listo para usar.
-despues en jupyter notebook escribi el siguiente codigo para conectar a la base
